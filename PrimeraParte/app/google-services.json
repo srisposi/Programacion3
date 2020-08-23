@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541148140004",
+    "firebase_url": "https://altafirebase-istic2020.firebaseio.com",
+    "project_id": "altafirebase-istic2020",
+    "storage_bucket": "altafirebase-istic2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541148140004:android:4f030652d5842d2bf2b7f1",
+        "android_client_info": {
+          "package_name": "com.example.altafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541148140004-77thm9r45p9hacjteqod4bp1otnlr30a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSouF6L5x_7hqyHK7kgZZJ594m03MpJ8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541148140004-77thm9r45p9hacjteqod4bp1otnlr30a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
