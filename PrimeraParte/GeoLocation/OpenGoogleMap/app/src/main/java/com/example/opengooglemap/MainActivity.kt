@@ -9,7 +9,7 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
 
     lateinit var mGoogleMapBtn : Button
-    val uri = "Carlos Calvo 1186, C1102 AAX, Buenos Aires"
+    val uri = "geo:0,0?q=Carlos Calvos 1182"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
