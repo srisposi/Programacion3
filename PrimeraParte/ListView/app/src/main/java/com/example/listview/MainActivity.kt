@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         //Ahora agregamos para que al seleccionar la imagen pasemos a otra pantalla con detalles
 
-        /*listElementos.setOnItemLongClickListener { parent, view, position, id ->
+        listElementos.setOnItemClickListener() { parent, view, position, id ->
             val intent = Intent(this, ProductoActivity::class.java)
             intent.putExtra("producto", listaProducto[position])
             startActivity(intent)
 
         }
-*/
+
     }
 }
