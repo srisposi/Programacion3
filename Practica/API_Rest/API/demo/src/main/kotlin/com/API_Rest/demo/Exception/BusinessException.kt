@@ -1,4 +1,4 @@
 package com.API_Rest.demo.Exception
 
-class BusinessException {
+class BusinessException(message:String?):Exception(message) {
 }

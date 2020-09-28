@@ -6,7 +6,14 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988327a4-f76a-4ce0-a034-84e29932b956" name="Default Changelist" comment="" />
+    <list default="true" id="988327a4-f76a-4ce0-a034-84e29932b956" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apk/Firebase.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../apk/Risposi_Firebase_v_01.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apk/ListView.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../apk/Risposi_ListView_v_01.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apk/OpenGoogleMap.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../apk/Risposi_OpenGoogleMap_v_01.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apk/SearchLocationOnMap.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../apk/Risposi_SearchLocationOnMap_v_01.apk" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

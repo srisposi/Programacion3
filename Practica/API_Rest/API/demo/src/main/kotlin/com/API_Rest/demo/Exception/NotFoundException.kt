@@ -1,4 +1,4 @@
 package com.API_Rest.demo.Exception
 
-class NotFoundException {
+class NotFoundException(message:String?):Exception(message) {
 }

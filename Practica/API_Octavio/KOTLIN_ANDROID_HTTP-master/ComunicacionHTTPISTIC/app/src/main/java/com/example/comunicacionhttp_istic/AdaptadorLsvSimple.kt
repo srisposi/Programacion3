@@ -28,10 +28,11 @@ class AdaptadorLsvSimple(var contexto:Context, listado:ArrayList<Pais>) :BaseAda
         {
             holder=vista.tag as? ViewHolder
         }
-        val unPais=getItem(position)as Pais
+        val unPais =
+//        val unPais=getItem(position)as Pais
 
-        holder?.nombre?.text=unPais.timezone
-        holder?.region?.text=unPais.temp
+        holder?.timezone?.text=unPais.timezone
+        //holder?.timezone_offset?.text=unPais.timezone_offset
 
         return vista!!
     }
@@ -51,11 +52,11 @@ class AdaptadorLsvSimple(var contexto:Context, listado:ArrayList<Pais>) :BaseAda
         return listado?.count()!!// para optener el valor !!
     }
     private class ViewHolder(vista:View){
-        var nombre :TextView?=null
-        var region:TextView?=null
+        var timezone :TextView?=null
+        //var timezone_offset:TextView?=null
         init {
-            nombre=vista.findViewById(R.id.textView3)
-            region=vista.findViewById(R.id.txtBandera)
+            timezone=vista.findViewById(R.id.textView)
+            //timezone_offset=vista.findViewById(R.id.txtBandera)
         }
     }
 }

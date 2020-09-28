@@ -10,10 +10,12 @@ import android.widget.Button
 import android.widget.Toast
 import org.json.JSONArray
 import org.json.JSONObject
+import org.json.JSONStringer
 import java.io.IOException
 import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -53,15 +55,18 @@ class MainActivity : AppCompatActivity() {
            https://restcountries.eu/rest/v2/name/aruba?fullText=true*/
             Log.d("ConsultaSimple" ,datos)
 
-            val datosArrayJson= JSONArray(datos)
+            val arrayDenombreDePaises:  ArrayList<String> = ArrayList()
+            val arrayDeobjetosDePaises:  ArrayList<Pais> = ArrayList()
+            val datosJSONObject= JSONObject(datos)
 
-            for ( i in 0..datosArrayJson.length()-1)
+            arrayDenombreDePaises.add( datosJSONObject.getString("timezone"))
+            Log.d("pais timezone", datosJSONObject.getString("timezone") )
+            /*for ( i in 0..datosJSONObject.length()-1)
             {
-                var pais= datosArrayJson.getJSONObject(i)
-               // Log.d(pais.getString("name") ,pais.toString(0) )
-                Log.d("timezone", pais.getString("timezone") )
-            }
-
+                Log.d("pais listado", datosJSONObject.getString("timezone") )
+                arrayDenombreDePaises.add( datosJSONObject.getString("timezone"))
+               // arrayDeobjetosDePaises.add(Pais( datosJSONObject.getString("timezone"), datosJSONObject.getString("timezone_offset")))            }
+*/
         }
 
     }
@@ -85,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
 
     @Throws(IOException::class)
-    private fun consultarDatos(url:String):String{
+     private fun consultarDatos(url:String):String{
         val policy=StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
         var datosDescargados: InputStream?=null

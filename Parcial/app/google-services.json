@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "372306496384",
+    "firebase_url": "https://isticparcial.firebaseio.com",
+    "project_id": "isticparcial",
+    "storage_bucket": "isticparcial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372306496384:android:ced20f42f8f4d2a131cf65",
+        "android_client_info": {
+          "package_name": "com.example.risposiparcial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372306496384-oob2b4bid5ij36recngfoi0rle59grlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArbw8xTrkNwBWwweZu31T1kNQhLehjPxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372306496384-oob2b4bid5ij36recngfoi0rle59grlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
